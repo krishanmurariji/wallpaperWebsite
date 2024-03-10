@@ -1088,6 +1088,11 @@
     /* left: -20%; */
   }
   
+  @media (max-width: 829px) {
+    .container {
+      display: none;
+    }
+  }
  
   
   .heading {
@@ -1097,13 +1102,8 @@
     text-transform: uppercase;
   }
   
-  
-  
-  @keyframes rotate {
-    0% {
-      transform: rotate(0deg);
+  /* @media (max-width: 768px) {
+    .heading {
+      font-size: 0.8rem;
     }
-    100% {
-      transform: rotate(360deg);
-    }
-  }
+  } */
