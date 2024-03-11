@@ -1016,12 +1016,12 @@
   }
   
   .w {
-    position: relative;
-    top: 0x;
+    position: absolute;
+    top: 80px;
     left: 100px;
-    transform: translate(-50%,-50%);
-    width: 8rem;
-    height: 8rem;
+    transform: translate(-50%, -50%);
+    width: 5rem;
+    height: 5rem;
     color: white;
     font-family: 'Fredoka One', sans-serif;
     font-size: 3rem;
@@ -1034,7 +1034,7 @@
       bottom: 0;
       left: 0;
       content: '';
-      border-radius: calc(8rem * .3);
+      border-radius: calc(5rem * .3);
       mix-blend-mode: screen;
       background-color: rebeccapurple;
       animation: fast 10s linear infinite;
@@ -1047,7 +1047,7 @@
       bottom: 0;
       left: 0;
       content: '';
-      border-radius: calc(8rem * .3);
+      border-radius: calc(5rem * .3);
       mix-blend-mode: screen;
       background-color: teal;
       animation: slow 20s linear infinite;
@@ -1084,7 +1084,7 @@
     width: 100%;
     padding: 5rem;
     position: absolute;
-    top: 2%;
+    top: 0%;
     /* left: -20%; */
   }
   
